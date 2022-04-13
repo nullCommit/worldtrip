@@ -22,9 +22,9 @@ export function Header() {
         <Image
           src='/images/logo.svg'
           alt='world trip logo'
+          w={['81px', '184px']}
           justifySelf='center'
           gridColumn='2'
-          w={['81px', '184px']}
         />
       </Grid>
     </Flex>
