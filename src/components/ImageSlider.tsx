@@ -21,7 +21,7 @@ export function ImageSlider() {
         className='mySwiper'
         slidesPerView={1}
         navigation
-        pagination={{ clickable: true, dynamicBullets: true }}
+        pagination={{ clickable: true }}
         modules={[Pagination, Navigation]}
         autoplay={{ delay: 2000 }}
         style={{ width: '100%', flex: 1 }}
@@ -39,7 +39,7 @@ export function ImageSlider() {
             bgPosition='center'
             textAlign='center'
           >
-            <Link href='/continent/europe'>
+            <Link href='/continent'>
               <a>
                 <Heading
                   fontSize={['3xl', '4xl', '5xl']}

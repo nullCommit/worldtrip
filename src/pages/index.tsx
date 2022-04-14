@@ -2,14 +2,14 @@ import { Box, Flex, Text } from '@chakra-ui/react';
 import { Banner } from '../components/Banner';
 import { Header } from '../components/Header';
 import { ImageSlider } from '../components/ImageSlider';
-import { Info } from '../components/Info';
+import { AttractionsInfo } from '../components/AttractionsInfo';
 
 export default function Home() {
   return (
     <Flex direction='column'>
       <Header />
       <Banner />
-      <Info />
+      <AttractionsInfo />
 
       <Flex
         direction='column'

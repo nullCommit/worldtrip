@@ -1,17 +1,11 @@
-import {
-  Flex,
-  HStack,
-  Image,
-  Text,
-  useBreakpointValue,
-} from '@chakra-ui/react';
+import { Flex, Image, Text, useBreakpointValue } from '@chakra-ui/react';
 
-interface InfoItemProps {
+interface AttractionsItemProps {
   icon: string;
   title: string;
 }
 
-export function InfoItem({ icon, title }: InfoItemProps) {
+export function AttractionsInfoItem({ icon, title }: AttractionsItemProps) {
   const isMobile = useBreakpointValue({
     base: false,
     sm: true,
