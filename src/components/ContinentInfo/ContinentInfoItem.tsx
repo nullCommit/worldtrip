@@ -60,7 +60,7 @@ export function ContinentInfoItem() {
               <PopoverCloseButton />
 
               <PopoverBody fontSize='lg' fontWeight='400'>
-                Roma, Inglaterra, Paris, Zurique, Zermatt, Amsterdam
+                Roma, Inglaterra, Paris, Zurique, Zermatt, Amsterdã
               </PopoverBody>
             </PopoverContent>
           </Popover>
