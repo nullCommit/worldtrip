@@ -1,4 +1,5 @@
 import { Grid, Text } from '@chakra-ui/react';
+import { ContinentInfoItem } from './ContinentInfoItem';
 
 export function ContinentInfo() {
   return (
@@ -16,6 +17,8 @@ export function ContinentInfo() {
         divide-se da Ásia a leste pela divisória de águas dos montes Urais, o
         rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
       </Text>
+
+      <ContinentInfoItem />
     </Grid>
   );
 }
